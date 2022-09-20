@@ -2,7 +2,7 @@
 
 This repository contains the deployment for the EAP application deployed to OpenShift with external database (MySQL).
 
-The EAP application code is maintained in https://github.com/deewhyweb/eap-quickstarts.git in the kitchensink folder.
+The EAP application code is maintained in https://github.com/org-apex/eap-quickstarts.git in the kitchensink folder.
 
 The OpenShift objects in this repository will create two build configs and image streams.
 
