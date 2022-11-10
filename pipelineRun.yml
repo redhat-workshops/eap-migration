@@ -5,7 +5,7 @@ metadata:
 spec:
   params:
     - name: repo-url
-      value: 'https://github.com/deewhyweb/eap-quickstarts.git'
+      value: 'https://github.com/redhat-workshops/eap-quickstarts.git'
     - name: revision
       value: 7.4.x
     - name: context-path
