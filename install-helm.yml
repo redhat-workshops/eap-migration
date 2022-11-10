@@ -3,7 +3,7 @@ image:
 build:
   enabled: true
   mode: s2i
-  uri: 'https://github.com/org-apex/eap-quickstarts.git'
+  uri: 'https://github.com/redhat-workshops/eap-quickstarts.git'
   ref: 7.4.x
   contextDir: kitchensink
   output:
