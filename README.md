@@ -74,13 +74,14 @@ Deploy maven, git-clone, and openshift-client tekton modules
 
 `oc apply -f https://raw.githubusercontent.com/tektoncd/catalog/main/task/openshift-client/0.2/openshift-client.yaml`
 
+Open pipelineRun.yml file, go to line number 94, update "oc project eap-webinar-<userX>"
+  
 Create the pipeline
 
 `oc apply -f pipeline.yml`
 
 Create a pipeline run
 
-Open pipelineRun.yml, go to line number 94, update "oc project eap-webinar-<userX>"
 
 `oc create -f pipelineRun.yml`
 
