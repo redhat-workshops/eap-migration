@@ -23,6 +23,10 @@ Create the OpenShift project
 
 `oc new-project eap-webinar-<userX>`
 
+If project eap-webinar-<userX> is already created, run the below command to switch to
+
+`oc project eap-webinar-<userX>`
+
 Deploy mysql
 
 `oc new-app  -e MYSQL_DATABASE=eap -e MYSQL_PASSWORD=demo -e MYSQL_USER=eap mysql-persistent `
