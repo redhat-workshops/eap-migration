@@ -47,10 +47,6 @@ Create the config map with mysql environment variables;
 
 `oc apply -f eap-cm.yml`
 
-Deploy the JBoss EAP operator
-
-`oc apply -f eap-operator.yml`
-
 Deploy the instance of the eap application using the operator
 
 `oc apply -f eap-deploy.yml`
@@ -61,10 +57,6 @@ Navigate to the route to test out the application.
 ## To use pipelines
 
 The following steps will deploy a tekton pipeline to take over the maven test and package tasks.
-
-Install the OpenShift Pipelines operator
-
-`oc apply -f pipelines-operator.yml`
 
 Deploy maven, git-clone, and openshift-client tekton modules
 
