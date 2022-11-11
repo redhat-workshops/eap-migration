@@ -23,7 +23,7 @@ If project eap-webinar-<userX> is already created, run the below command to swit
 
 `oc project eap-webinar-<userX>`
   
-If project eap-webinar-<userX> is NOT yet created, Create the OpenShift project
+If project 'eap-webinar-<userX>' is NOT yet created, Create the OpenShift project
 
 `oc new-project eap-webinar-<userX>`
 
