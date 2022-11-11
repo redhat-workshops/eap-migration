@@ -114,7 +114,9 @@ Test the event listener route
 `export eventhost=$(oc get route el-eap-app-listener -o custom-columns=host:spec.host --no-headers)`
   
   Run the below command and save the hostname resulted from the command. It's needed for webhook in git repo.
-  echo $eventhost
+  
+  `echo $eventhost`
+  
 
 ```
 curl -X POST   http://$eventhost   -H 'Content-Type: application/json'   -d '{ "commit_sha": "22ac84e04fd2bd9dce8529c9109d5bfd61678b29",  "repository": {"url": "https://github.com/deewhyweb/eap-quickstarts.git", "name": "eap-migration"},"head_commit":{ "id":"7.4.x"}}'
