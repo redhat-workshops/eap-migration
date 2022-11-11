@@ -21,7 +21,7 @@ The second step is to build the EAP application image, this is where the EAP run
 
 Create the OpenShift project
 
-`oc new-project eap-webinar`
+`oc new-project eap-webinar-<userX>`
 
 Deploy mysql
 
@@ -75,6 +75,8 @@ Create the pipeline
 `oc apply -f pipeline.yml`
 
 Create a pipeline run
+
+Open pipelineRun.yml, go to line number 94, update "oc project eap-webinar-<userX>"
 
 `oc create -f pipelineRun.yml`
 
