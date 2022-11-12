@@ -17,6 +17,11 @@ The second step is to build the EAP application image, this is where the EAP run
 * OpenShift cluster 
 * Openshift command line tool installed and logged into cluster.
 
+## Git code setup
+
+cd /tmp
+
+
 ## Steps to deploy EAP app to OpenShift
 
 If project 'eap-webinar-userX' is already created, run the below command to switch to
